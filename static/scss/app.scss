@@ -1,0 +1,38 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: 'Simplifica';
+  src: url("../webfonts/SIMPLIFICA_Typeface.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../webfonts/Roboto-Regular.ttf");
+}
+
+.dark-bg {
+  background-color: #050505;
+}
+
+.headline {
+  color: #ded5d3;
+  font-family: 'Roboto', sans-serif;
+}
+
+.body-text {
+  color: #b2a19d;
+}
+
+.button-color {
+  background-color: #80524B;
+}
+
+.button-color:hover {
+  background-color: #6d443f;
+}
+
+.light-brown-color {
+  color: rgba(186, 132, 92, 60);
+}
